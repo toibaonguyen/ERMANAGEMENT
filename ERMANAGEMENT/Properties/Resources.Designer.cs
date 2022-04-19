@@ -73,6 +73,16 @@ namespace ERMANAGEMENT.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap imagestaff {
+            get {
+                object obj = ResourceManager.GetObject("imagestaff", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap planning__1_ {
             get {
                 object obj = ResourceManager.GetObject("planning__1_", resourceCulture);
@@ -96,6 +106,16 @@ namespace ERMANAGEMENT.Properties {
         internal static System.Drawing.Bitmap searching_magnifying_glass {
             get {
                 object obj = ResourceManager.GetObject("searching_magnifying_glass", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tu_vung_tieng_anh_do_an_nhanh {
+            get {
+                object obj = ResourceManager.GetObject("tu_vung_tieng_anh_do_an_nhanh", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

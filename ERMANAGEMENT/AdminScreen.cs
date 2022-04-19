@@ -62,5 +62,10 @@ namespace ERMANAGEMENT
         {
             OpenChildForm(new AdminScreens.StaffmanagementS(),sender);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new AdminScreens.StaffmanagementS(), sender);
+        }
     }
 }

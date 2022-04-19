@@ -31,12 +31,15 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 170);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -80,6 +83,16 @@
             this.guna2Button2.Text = "Delete";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ERMANAGEMENT.Properties.Resources.imagestaff;
+            this.pictureBox1.Location = new System.Drawing.Point(638, 51);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(225, 225);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
             // guna2TextBox1
             // 
             this.guna2TextBox1.AutoRoundedCorners = true;
@@ -107,7 +120,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(917, 620);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(957, 620);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.guna2TextBox1);
             this.Controls.Add(this.guna2Button2);
             this.Controls.Add(this.guna2Button1);
@@ -115,7 +130,9 @@
             this.Name = "StaffmanagementS";
             this.Text = "StaffmanagementS";
             this.Load += new System.EventHandler(this.StaffmanagementS_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -125,5 +142,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
