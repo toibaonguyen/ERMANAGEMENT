@@ -16,7 +16,7 @@ namespace ERMANAGEMENT
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AdminScreen());
+            Application.Run(new Form1());
         }
     }
 }
