@@ -45,5 +45,6 @@ pass varchar(20)
 )
 
 alter table staff add constraint CK_CV check (chucvu='Chief' or chucvu='Waiter')
+insert into accountad values ('ad123','12345678')
 
 
