@@ -65,7 +65,12 @@ namespace ERMANAGEMENT
 
         private void button2_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new AdminScreens.StaffmanagementS(), sender);
+            OpenChildForm(new AdminScreens.FoodManagement(), sender);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new AdminScreens.TrendandincomeSc(), sender);
         }
     }
 }

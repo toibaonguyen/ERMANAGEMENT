@@ -76,6 +76,7 @@ namespace ERMANAGEMENT.AdminScreens
 
                 }
             }
+            c.disconnect();
 
         }
 

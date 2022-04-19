@@ -73,6 +73,12 @@
     <Compile Include="AdminScreens\StaffmanagementS.Designer.cs">
       <DependentUpon>StaffmanagementS.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminScreens\TrendandincomeSc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminScreens\TrendandincomeSc.Designer.cs">
+      <DependentUpon>TrendandincomeSc.cs</DependentUpon>
+    </Compile>
     <Compile Include="ClassDoSomethingWithImage.cs" />
     <Compile Include="ConnectData.cs" />
     <Compile Include="Form1.cs">
@@ -102,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AdminScreens\StaffmanagementS.resx">
       <DependentUpon>StaffmanagementS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminScreens\TrendandincomeSc.resx">
+      <DependentUpon>TrendandincomeSc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
