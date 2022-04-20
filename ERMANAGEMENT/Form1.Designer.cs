@@ -89,7 +89,7 @@
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(180, 45);
             this.guna2Button3.TabIndex = 4;
-            this.guna2Button3.Text = "Login as chief";
+            this.guna2Button3.Text = "Login as chef";
             // 
             // guna2Button2
             // 
@@ -140,7 +140,7 @@
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox2.Location = new System.Drawing.Point(12, 266);
             this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PasswordChar = '\0';
+            this.guna2TextBox2.PasswordChar = '*';
             this.guna2TextBox2.PlaceholderText = "Password";
             this.guna2TextBox2.SelectedText = "";
             this.guna2TextBox2.Size = new System.Drawing.Size(277, 36);
