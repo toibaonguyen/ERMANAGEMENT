@@ -1,4 +1,4 @@
-create database Erestaurant
+﻿create database Erestaurant
 use Erestaurant
 
 create table Foodanddrink
@@ -46,5 +46,11 @@ pass varchar(20)
 
 alter table staff add constraint CK_CV check (chucvu='Chief' or chucvu='Waiter')
 insert into accountad values ('ad123','12345678')
+
+--update mới từ dòng này--
+alter table orders add numoftable int
+alter table bill add sotienduocgiam money
+alter table Khachhang add CP money
+
 
 
