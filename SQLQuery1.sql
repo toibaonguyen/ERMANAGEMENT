@@ -52,6 +52,9 @@ alter table orders add numoftable int
 alter table bill add sotienduocgiam money
 alter table Khachhang add CP money
 alter table Khachhang add Matkhau varchar(16)
+alter table orders add done varchar(10)
+alter table orders add Check (done='true' or done='false');
+
 
 
 
