@@ -51,6 +51,7 @@ insert into accountad values ('ad123','12345678')
 alter table orders add numoftable int
 alter table bill add sotienduocgiam money
 alter table Khachhang add CP money
+alter table Khachhang add Matkhau varchar(16)
 
 
 
