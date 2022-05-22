@@ -55,6 +55,12 @@
     <Compile Include="AdminScreen.Designer.cs">
       <DependentUpon>AdminScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminScreens\addcpsr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminScreens\addcpsr.Designer.cs">
+      <DependentUpon>addcpsr.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminScreens\FoodManagement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     </Compile>
     <EmbeddedResource Include="AdminScreen.resx">
       <DependentUpon>AdminScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminScreens\addcpsr.resx">
+      <DependentUpon>addcpsr.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminScreens\FoodManagement.resx">
       <DependentUpon>FoodManagement.cs</DependentUpon>

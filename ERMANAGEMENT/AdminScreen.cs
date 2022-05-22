@@ -72,5 +72,10 @@ namespace ERMANAGEMENT
         {
             OpenChildForm(new AdminScreens.TrendandincomeSc(), sender);
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new AdminScreens.addcpsr(), sender);
+        }
     }
 }
