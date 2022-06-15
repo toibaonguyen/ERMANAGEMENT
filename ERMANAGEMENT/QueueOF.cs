@@ -9,6 +9,6 @@ namespace ERMANAGEMENT
     static public class QueueOF
     {
        public static List<ORDER>Queue=new List<ORDER>();
-       public static string conn= @"Data Source=DESKTOP-0K27OUB\SQLEXPRESS01;Initial Catalog=Erestaurant;Integrated Security=True";
+       public static string conn= @"Data Source=.\SQLExpress;Initial Catalog=Erestaurant;Integrated Security=True";
     }
 }

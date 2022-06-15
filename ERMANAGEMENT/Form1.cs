@@ -65,5 +65,15 @@ namespace ERMANAGEMENT
             childForm.Show();
             this.panel2.Visible = false;
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Staff.Waiter());
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Staff.Chef());
+        }
     }
 }

@@ -81,7 +81,6 @@ namespace ERMANAGEMENT.AdminScreens
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)
         {
             showdata(guna2TextBox1.Text);
-
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
@@ -121,8 +120,6 @@ namespace ERMANAGEMENT.AdminScreens
                 {
 
                     pictureBox1.Image = ClassDoSomethingWithImage.Base64ToImage(row["anh"].ToString());
-
-            
 
                 }
             }

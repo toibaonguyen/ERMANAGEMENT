@@ -73,9 +73,29 @@ namespace ERMANAGEMENT.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fd9dbda0d78790434f5f40fe27362cdd_m {
+            get {
+                object obj = ResourceManager.GetObject("fd9dbda0d78790434f5f40fe27362cdd-m", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imagestaff {
             get {
                 object obj = ResourceManager.GetObject("imagestaff", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kitchen_layouts {
+            get {
+                object obj = ResourceManager.GetObject("kitchen-layouts", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
